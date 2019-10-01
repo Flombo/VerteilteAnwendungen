@@ -10,6 +10,7 @@ class ExecuterThread extends Thread {
         this.f = f;
         this.x = x;
         this.r = r;
+        this.setDaemon(true);
     }
 
     @Override

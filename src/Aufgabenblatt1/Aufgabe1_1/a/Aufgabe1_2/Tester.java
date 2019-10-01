@@ -4,7 +4,7 @@ public class Tester {
 
     public static void main(String[] args){
         CalcSqrt calcSqrt = new CalcSqrt();
-        for (int result: Execute.execute(calcSqrt, 3)) {
+        for (int result: Execute.execute(calcSqrt, 100)) {
             System.out.println(result);
         }
     }
