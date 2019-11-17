@@ -1,0 +1,84 @@
+body{
+	background-color: white;
+	color: #ffffff;
+	margin:0;
+}
+
+.topnav {
+  background-color: #304B64;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: darkorange;
+  color: white;
+}
+
+.imgView{
+	background-image:url(https://www.free-event.com/wp-content/gallery/conad/convention_conad_free_event_1.jpg);
+	color:white;
+	font-weight: bold;
+	padding: 2% 0% 2% 2%;
+	font-size:200%;
+}
+
+.container{
+	margin-left: 1%;
+	margin-top: 1%;
+	background-color: rgb(48,75,100);
+	padding: 5%;
+	max-width: 40%;
+}
+.table{
+	padding: 5%;
+}
+tr{
+	border: 2px solid white;	
+}
+td{
+	border: 2px solid white;
+	font-size: 120%;
+}
+.offen{
+	background-color: green;
+}
+.reserv{
+	background-color: orange;
+}
+.verkauft{
+	background-color: red;
+}
+.error{
+	font-weight: bold;
+	color: red;
+}
+a{
+	color: white;
+}
+input{
+	margin-top:2%
+}
+button{
+	border-radius: 4%;
+	background-color: lightseagreen;
+	color: #FFF;
+	font-size: 120%;
+	border-style: solid;
+	border-color: lightseagreen;
+	padding: 0.5% 1% 0.5% 1%;
+	margin-top: 2%;
+}
